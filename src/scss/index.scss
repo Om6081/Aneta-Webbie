@@ -1,0 +1,43 @@
+* {
+
+box-sizing: border-box;
+    
+}
+html{
+    font-size: 16px;
+}
+body {
+margin: 0;
+padding: 0;
+} 
+.header {
+    background-color: grey;
+    display: flex;
+    float: left;
+    justify-content: center;
+    min-height: 30vh;
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+} 
+h1 {
+    color: black;
+    font-size: 16rem;
+    text-align: center;
+}
+p {
+    color: rgba(48, 13, 13, 0.664);
+    font-size: 8rem;
+    text-align: center;
+}
+.section{
+
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #f8f9fa;
+    margin-top: 2rem;
+    padding: 3rem 1rem;
+}
+
