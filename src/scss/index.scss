@@ -10,7 +10,7 @@ body {
 margin: 0;
 padding: 0;
 } 
-.header {
+header {
     background-color: grey;
     display: flex;
     float: left;
@@ -39,5 +39,9 @@ p {
     background-color: #f8f9fa;
     margin-top: 2rem;
     padding: 3rem 1rem;
+}
+footer{
+font-size: 4rem;
+color:blue;
 }
 
